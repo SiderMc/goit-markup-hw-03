@@ -176,6 +176,9 @@ body {
   display: flex;
   column-gap: 40px;
 }
+.current {
+  color: var(--hover-color);
+}
 /*===========================================*/
 /*===============HERO=========================*/
 .hero {
