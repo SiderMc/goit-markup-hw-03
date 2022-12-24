@@ -65,6 +65,7 @@ body {
 }
 .footer-logo {
   color: var(--third-color);
+  margin-right: 0;
 }
 .logo-item {
   color: var(--first-color);
@@ -125,7 +126,6 @@ body {
 .buttons:focus {
   background-color: var(--hover-color);
   color: var(--second-color-text);
-  border: 1px solid transparent;
 }
 /*=================================*/
 /*=============Titles============*/
@@ -187,14 +187,14 @@ body {
 }
 .section-botton {
   margin-top: 48px;
-  border: none;
+  border: 1px solid transparent;
   padding: 16px 32px;
   border-radius: 4px;
 }
 /*===========================================*/
 /*=============BENEFITS=======================*/
 .benefits {
-  margin-top: 120px;
+  padding-top: 120px;
 }
 .main-lists {
   display: flex;
@@ -202,16 +202,16 @@ body {
 }
 .benefits-title {
   margin-bottom: 8px;
+  text-align: left;
 }
 /*=============================================*/
 /*==============PROJECTS=======================*/
 .projects {
-  margin-top: 120px;
+  padding: 120px 0;
 }
 /*=============================================*/
 /*================TEAM=========================*/
 .team {
-  margin-top: 120px;
   padding: 120px 0;
   background-color: var(--third-color);
 }
@@ -240,14 +240,14 @@ body {
 
 /*==============PORTFOLIO===========================*/
 .main-page {
-  margin-top: 96px;
-  margin-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .buttons-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .service-list {
   display: flex;
