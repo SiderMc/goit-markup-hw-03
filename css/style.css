@@ -212,7 +212,7 @@ body {
 /*=============================================*/
 /*================TEAM=========================*/
 .team {
-  padding: 120px 0;
+  padding-top: 120px 0;
   background-color: var(--third-color);
 }
 .team-list-item {
