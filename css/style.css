@@ -21,6 +21,9 @@ img {
 button {
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 /*=============================*/
 
 :root {
@@ -257,6 +260,10 @@ body {
 }
 .service-list-item {
   border: 1px solid var(--fourth-color);
+  color: inherit;
+}
+.service-list-link {
+  color: var(--second-color);
 }
 .service-box {
   padding: 32px 0 32px 16px;
